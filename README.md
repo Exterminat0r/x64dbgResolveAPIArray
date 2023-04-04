@@ -2,7 +2,7 @@
 A basic x64dbg plugin which will resolve an array of API pointers.
 
 ## Background
-Most modern malware will attempt to thwart static analysis by using dynamic API resolution in conjunction with API hashing.
+Most modern malware will attempt to thwart static analysis by using dynamic API resolution in conjunction with API hashing.\n
 Often after these APIs have been resolved by the malware they pointers to each API will be placed in an array for future use.
 This plugin was simply written to resolve all the APIs pointers in the array so they can be filled in as a struct or array in your static code anlysis tool of choice.
 
